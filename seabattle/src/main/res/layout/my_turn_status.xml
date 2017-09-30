@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Your Turn"
+    android:id="@+id/textView"
+    android:background="@drawable/rounded_corner1"
+    android:gravity="center_vertical|center_horizontal"
+    android:textSize="40dp"
+    android:layout_gravity="bottom"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

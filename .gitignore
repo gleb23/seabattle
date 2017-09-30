@@ -1,0 +1,12 @@
+.gradle
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/seabattle.iml
+seabattle/src/main/AndroidManifest.xml
+ic_launcher-web.png
+project.properties
+build

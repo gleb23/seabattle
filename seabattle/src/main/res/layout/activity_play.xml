@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"/>
+
+    <ViewSwitcher
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/statusViewSwitcher">
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Turn"
+            android:id="@+id/myTurnStatus"
+            android:background="@drawable/rounded_corner1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="40dp"
+            android:layout_gravity="bottom"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wait"
+            android:id="@+id/notMyTurnStatus"
+            android:background="@drawable/rounded_corner2"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="40dp"
+            android:layout_gravity="bottom"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+    </ViewSwitcher>
+</LinearLayout>
